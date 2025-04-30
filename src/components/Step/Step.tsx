@@ -53,12 +53,12 @@ const Step = () => {
             name={"Tiffany Miller"} 
             className="absolute top-20 -left-[40%] md:left-0"
             rating={4.6} 
-            img="../../../public/headshots/tiffany.webp"/>
+            img="/public/headshots/tiffany.webp"/>
            <Rating 
             name={"Anari Racer"} 
             className="absolute bottom-20 -right-[40%] md:right-0"
             rating={4.9} 
-            img="../../../public/headshots/amari.webp"/>
+            img="/public/headshots/amari.webp"/>
           </figure>
 
         </div>
