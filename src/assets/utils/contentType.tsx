@@ -10,7 +10,7 @@ interface NavigationLink {
 
 interface HeroBenefit {
   id: number;
-  Icon: (props: { className: string }) => JSX.Element;
+  Icon: (props: { className: string , fill? : string }) => JSX.Element;
   heading: string;
   description: string;
 }
