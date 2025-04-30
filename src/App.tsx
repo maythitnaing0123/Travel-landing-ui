@@ -23,7 +23,8 @@ import Testimonials from './components/Testimonrials/Testimonials'
 import Footer from './components/Footer'
 import MobileMenu from './components/Navigation/MobileMenu';
 import MenuContextProvider from './content/MobileMenuContent';
-
+import { initGoogleAnalytics , logView } from './components/analytics';
+import { useEffect } from 'react';
 
 // maythitnaing33@gmail.com
 // supabase
@@ -32,6 +33,13 @@ const queryClient = new QueryClient();
 
 
 function App() {
+
+  useEffect(() => {
+
+    initGoogleAnalytics();
+    logView();
+
+  },[])
 
 
   return (
